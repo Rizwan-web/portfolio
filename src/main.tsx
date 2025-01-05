@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Button />
+    <Button label="Submit" style="bg-blue-500 text-white border-none" />
   </StrictMode>
 );
 
