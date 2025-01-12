@@ -1,13 +1,13 @@
-/* #root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-} */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+}
 
 body {
   margin: 0;
@@ -47,4 +47,13 @@ body {
 
 .read-the-docs {
   color: #888;
+}
+
+/* Custom Styleing */
+
+.custom-border-line {
+  background: linear-gradient(90deg, transparent, #05bd93, transparent);
+  height: 1px;
+  margin: 0 auto;
+  width: 80px;
 }
