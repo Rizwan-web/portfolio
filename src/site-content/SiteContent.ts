@@ -1,5 +1,10 @@
-// Service Page Content Start
+// Home page content
+export const BANNER_TITLE = 'Make your Site Amazing & Unique with zoric';
+export const BANNER_SUB_TITLE = 'Zoric Template';
+export const BANNER_DESC = 'A digital web design studio creating modern & engaging online. Separated they live in Bookmarksgrove right the Semantics, a large language.';
 
+//Home page content end
+// Service Page Content Start
 export const SERVICE_OUTLINE = "Services We're Provided";
 export const SERVICES_HEADING = "We do all Creative Services";
 export const SERVICES_CONTENT =

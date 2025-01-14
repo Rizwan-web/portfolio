@@ -1,5 +1,9 @@
+import Banner from "../../components/banner/Banner";
+
 const Home = () => {
-  return <p className="basePrimary">Home Page</p>;
+  return <>
+    <Banner></Banner>
+  </>;
 };
 
 export default Home;
