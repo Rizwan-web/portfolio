@@ -1,7 +1,11 @@
-import BannerImage from '../../assets/images/home1.png'
+import BannerImage from "../../assets/images/home1.png";
 import { Link } from "react-router-dom";
-import Button from '../Button/Button';
-import { BANNER_TITLE, BANNER_SUB_TITLE, BANNER_DESC } from '../../site-content/SiteContent';
+import Button from "../button/Button";
+import {
+  BANNER_TITLE,
+  BANNER_SUB_TITLE,
+  BANNER_DESC,
+} from "../../site-content/SiteContent";
 const Banner = () => {
   return (
     <section className="bg-home bg-green-950" id="home">
@@ -12,14 +16,12 @@ const Banner = () => {
             <div className="home-content me-lg-5">
               <h6 className="sub-title mb-3 text-white">{BANNER_SUB_TITLE}</h6>
               <h1 className="mb-4 text-white">
-                  {BANNER_TITLE}
+                {BANNER_TITLE}
                 {/* <span className="text-primary">zoric</span> */}
               </h1>
-              <p className="text-white-50 fs-17">
-                {BANNER_DESC}
-              </p>
+              <p className="text-white-50 fs-17">{BANNER_DESC}</p>
               <div className="mt-4">
-                <Link className='mr-3' to="/">
+                <Link className="mr-3" to="/">
                   <Button
                     label="Get Started"
                     onClick={() => alert("Button Clicked!")}
@@ -40,7 +42,8 @@ const Banner = () => {
           </div>
           <div className="grid-cols-6">
             <div className="home-dashboard mt-4 mt-lg-0">
-              <img src={BannerImage}
+              <img
+                src={BannerImage}
                 alt="Home Dashboard"
                 className="img-fluid"
                 width={600}
