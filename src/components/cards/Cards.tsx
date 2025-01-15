@@ -6,9 +6,16 @@ interface CardProps {
   heading?: string;
   content?: string;
   style?: string;
+  contentStyle?: string;
 }
 
-const Cards = ({ icon, heading, content, style }: CardProps) => {
+const Cards: React.FC<CardProps> = ({
+  icon,
+  heading,
+  content,
+  style,
+  contentStyle,
+}) => {
   return (
     <div
       className={`bg-white rounded-lg p-6 max-w-sm transform transition-transform flex flex-col items-center text-center py-10 ${
@@ -18,7 +25,7 @@ const Cards = ({ icon, heading, content, style }: CardProps) => {
       <div className="text-[#05bd93] text-4xl mb-5">{icon}</div>
       <h2 className="text-xl font-bold text-gray-800 mb-5">{heading}</h2>
       <BorderLineStyle />
-      <p className="text-gray-600 mt-5">{content}</p>
+      <p className={`text-gray-600 mt-5 ${contentStyle ?? ""}`}>{content}</p>
     </div>
   );
 };
