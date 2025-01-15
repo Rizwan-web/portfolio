@@ -7,6 +7,10 @@ export default {
         basePrimary: "#05bd93",
         baseSecondary: "#8492a6",
       },
+      backgroundColor: {
+        basePrimary: "#05bd93",
+        baseSecondary: "#8492a6",
+      },
     },
   },
   plugins: [],
