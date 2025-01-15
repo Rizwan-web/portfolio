@@ -1,6 +1,6 @@
 import BannerImage from "../../assets/images/home1.png";
 import { Link } from "react-router-dom";
-import Button from "../button/Button";
+import Button from "../Button/Button"; 
 import {
   BANNER_TITLE,
   BANNER_SUB_TITLE,
