@@ -25,4 +25,12 @@ export const SERVICE_WEB_QUALITY_CARDS_CONTENT =
 export const SERVICE_WEB_MARKETING_CARDS_CONTENT =
   "This is required when, for example, the is not yet available. Dummy text is also known as 'fill text'.";
 
+// Service About Content
+
+export const ABOUT_AGENCY = "About Agency";
+export const ABOUT_AGENCY_HEADING =
+  "Leading Digital Agency for Business Solution." ;
+export const ABOUT_AGENCY_CONTENT =
+  "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.";
+
 // Service Page Content End
