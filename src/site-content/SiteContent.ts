@@ -1,7 +1,8 @@
 // Home page content
-export const BANNER_TITLE = 'Make your Site Amazing & Unique with zoric';
-export const BANNER_SUB_TITLE = 'Zoric Template';
-export const BANNER_DESC = 'A digital web design studio creating modern & engaging online. Separated they live in Bookmarksgrove right the Semantics, a large language.';
+export const BANNER_TITLE = "Make your Site Amazing & Unique with zoric";
+export const BANNER_SUB_TITLE = "Zoric Template";
+export const BANNER_DESC =
+  "A digital web design studio creating modern & engaging online. Separated they live in Bookmarksgrove right the Semantics, a large language.";
 
 //Home page content end
 // Service Page Content Start
@@ -34,7 +35,7 @@ export const SERVICE_WEB_MARKETING_CARDS_CONTENT =
 
 export const ABOUT_AGENCY = "About Agency";
 export const ABOUT_AGENCY_HEADING =
-  "Leading Digital Agency for Business Solution." ;
+  "Leading Digital Agency for Business Solution.";
 export const ABOUT_AGENCY_CONTENT =
   "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.";
 

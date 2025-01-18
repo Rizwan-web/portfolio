@@ -8,9 +8,9 @@ import {
 } from "../../site-content/SiteContent";
 const Banner = () => {
   return (
-    <section className="bg-home bg-green-950" id="home">
+    <section className="bg-home bg-green-950 py-20" id="home">
       <div className="bg-overlay"></div>
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="items-center flex">
           <div className="grid-cols-6">
             <div className="home-content me-lg-5">
