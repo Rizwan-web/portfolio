@@ -1,5 +1,5 @@
 // Home page content
-export const BANNER_TITLE = "Make your Site Amazing & Unique with zoric";
+export const BANNER_TITLE = "Make your Site Amazing & Unique with";
 export const BANNER_SUB_TITLE = "Zoric Template";
 export const BANNER_DESC =
   "A digital web design studio creating modern & engaging online. Separated they live in Bookmarksgrove right the Semantics, a large language.";

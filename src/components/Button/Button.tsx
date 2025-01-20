@@ -10,8 +10,12 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = ({ label = "Click Me", onClick, style, className }) => {
   return (
     <button 
-      style={style} 
-      className={`button-base rounded-lg text-base font-[1100] py-3 px-6 ${className}`} 
+      style={style}
+      className={`border border-emerald-500 button-base rounded-lg text-base font-[1100] py-3 px-6 
+        ${ className === 'bgButton' ? 'text-slate-50 hover:bg-emerald-700 hover:border-emerald-700 bg-emerald-500' 
+          : 'text-slate-50 hover:bg-white hover:text-black border border-white'
+        }`
+      }
       onClick={onClick}
     >
       {label}

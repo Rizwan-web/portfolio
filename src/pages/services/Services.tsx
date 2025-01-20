@@ -37,7 +37,7 @@ const Services = () => {
           <h3 className="text-baseSecondary uppercase mb-3">
             {SERVICE_OUTLINE}
           </h3>
-          <h2 className="mb-3 text-3xl font-bold mb-3">{SERVICES_HEADING}</h2>
+          <h2 className="text-3xl font-bold mb-3">{SERVICES_HEADING}</h2>
           <BorderLineStyle />
           <p className="text-baseSecondary mt-3 w-full md:w-1/2 mx-auto">
             {SERVICES_CONTENT}
