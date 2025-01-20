@@ -56,3 +56,6 @@ body {
   margin: 0 auto;
   width: 80px;
 }
+.bg-home{
+  background-image: url('./assets/images/bg-home1-1.jpg');
+}
