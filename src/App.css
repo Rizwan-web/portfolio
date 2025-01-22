@@ -59,3 +59,13 @@ body {
 .bg-home{
   background-image: url('./assets/images/bg-home1-1.jpg');
 }
+.web-item{height: 503px;}
+.layout-container{height: 500px; -webkit-transition: 20s ease-out;}
+.demo-effects:hover .layout-container {
+  background-position: center 100% !important;
+}
+.web-item:hover .img-overlay {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
