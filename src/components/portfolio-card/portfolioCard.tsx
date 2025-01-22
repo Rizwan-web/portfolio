@@ -3,14 +3,13 @@ import { FaLink } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 interface CardProps {
-  icon?: ReactNode;
   heading?: string;
   content?: string;
   ribon?: boolean;
   backgroundImage?: any;
   link?: any;
 }
-const portfolioCard: React.FC<CardProps> = ({ icon, heading, content, ribon, backgroundImage, link}) => {
+const portfolioCard: React.FC<CardProps> = ({heading, content, ribon, backgroundImage, link}) => {
   return (
     <div className='text-center demo-effects mb-10'>
       <div className="web-item block my-7 mx-5 relative border-violet-200 rounded-md overflow-hidden">
