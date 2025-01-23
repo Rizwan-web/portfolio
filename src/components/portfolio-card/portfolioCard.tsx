@@ -12,9 +12,9 @@ const portfolioCard: React.FC<CardProps> = ({heading, content, ribon, background
   return (
     <div className='text-center demo-effects mb-10'>
       <div className="web-item block my-7 mx-5 relative border-violet-200 rounded-md overflow-hidden">
-        <div className={`layout-container shadow-md w-full bg-white rounded-md inline-flex bg-cover ease-out duration-200 bg-no-repeat bg-[url('${backgroundImage}')]`}>
+        <div className={`layout-container shadow-md w-full bg-white rounded-md inline-flex bg-cover ease-out duration-200 bg-no-repeat`} style={{backgroundImage: `url('${backgroundImage}')`}}>
           {ribon &&(
-            <div className="ribbon-1 w-7 h-14 bg-red-600 -top-1.5 left-3.5 relative mb-80 shadow-lime-600">
+            <div className="ribbon-1 h-20 bg-emerald-500 -top-1.5 left-3.5 relative mb-80 shadow-lime-600">
               <span className='first:mt-3 block text-white min-h-4 lowercase'>n</span>
               <span className='block text-white min-h-4 lowercase'>e</span>
               <span className='block text-white min-h-4 lowercase'>w</span>

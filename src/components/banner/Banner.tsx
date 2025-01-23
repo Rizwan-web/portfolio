@@ -6,7 +6,6 @@ import {
   BANNER_SUB_TITLE,
   BANNER_DESC,
 } from "../../site-content/SiteContent";
-import PortfolioCard from "../portfolio-card/portfolioCard";
 const Banner = () => {
   return (
     <>
@@ -81,20 +80,6 @@ const Banner = () => {
           </svg>
         </div>
       </div>
-      <section>
-        <div className="grid grid-cols-3 gap-3">
-          <PortfolioCard 
-            ribon={true}
-            backgroundImage="http://localhost:5173/public/realtor.png" 
-            heading="Project 1" 
-            content="This is dummy content you can follow us at Arhamsoft"
-            link="https://example.com"
-            >
-          </PortfolioCard>
-          <PortfolioCard></PortfolioCard>
-          <PortfolioCard></PortfolioCard>
-        </div>
-      </section>
     </>
   );
 };
