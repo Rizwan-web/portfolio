@@ -10,7 +10,7 @@ interface CardProps {
 }
 const portfolioCard: React.FC<CardProps> = ({heading, content, ribon, backgroundImage, link}) => {
   return (
-    <div className='text-center demo-effects mb-10'>
+    <div className='text-center demo-effects mb-5'>
       <div className="web-item block my-7 mx-5 relative border-violet-200 rounded-md overflow-hidden">
         <div className={`layout-container shadow-md w-full bg-white rounded-md inline-flex bg-cover ease-out duration-200 bg-no-repeat`} style={{backgroundImage: `url('${backgroundImage}')`}}>
           {ribon &&(
