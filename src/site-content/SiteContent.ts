@@ -40,3 +40,11 @@ export const ABOUT_AGENCY_CONTENT =
   "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.";
 
 // Service Page Content End
+
+
+// Portfolio Page Content Start
+export const PORTFOLIO_OUTLINE = "Portfolio We're Provided";
+export const PORTFOLIO_HEADING = "We do all Creative Portfolio";
+export const PORTFOLIO_CONTENT =
+  "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.";
+// Portfolio Page Content End
