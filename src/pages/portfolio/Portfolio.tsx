@@ -1,9 +1,11 @@
 import{ PORTFOLIO_CONTENT, PORTFOLIO_HEADING, PORTFOLIO_OUTLINE } from "../../site-content/SiteContent";
 import BorderLineStyle from "../../components/border-line-style/BorderLineStyle";
 import { useState } from 'react';
+import PortfolioCard from "../../components/portfolio-card/portfolioCard";
+import Button from "../../components/Button/Button";
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState(0);
-  const tabs = ['Tab 1', 'Tab 2', 'Tab 3'];
+  const tabs = ['Web Development', 'Web Design', 'Branding'];
   return <>
     <div className="container mx-auto px-4 md:px-6">
         <div className="py-5 flex flex-col text-center">
@@ -19,22 +21,42 @@ const Portfolio = () => {
         <div>
           <div className="flex border-b border-gray-200">
             {tabs.map((tab, index) => (
-              <button
+              <Button
                 key={index}
-                className={`px-4 py-2 ${
-                  activeTab === index
-                    ? 'border-b-2 border-blue-500 text-blue-500'
-                    : 'text-gray-500'
-                }`}
+                label={tab}
                 onClick={() => setActiveTab(index)}
-              >
-                {tab}
-              </button>
+                className={`px-4 py-2 ${
+                      activeTab === index
+                        ? 'border-b-2 border-blue-500 text-blue-500'
+                        : 'text-gray-500'
+                    }`}
+                style={{}}
+              />
             ))}
           </div>
           <div className="p-4">
-            {activeTab === 0 && <div> 
-            
+            {activeTab === 0 && <div className="grid grid-cols-3 gap-3"> 
+              <PortfolioCard 
+                ribon={true}
+                backgroundImage="http://localhost:5173/public/realtor.png" 
+                heading="Project 1" 
+                content="This is dummy content you can follow us at Arhamsoft"
+                link="https://example.com"
+              />
+              <PortfolioCard
+                ribon={true}
+                backgroundImage="http://localhost:5173/public/efuel.png" 
+                heading="Project 1" 
+                content="This is dummy content you can follow us at Arhamsoft"
+                link="https://example.com"
+              />
+              <PortfolioCard 
+                ribon={false}
+                backgroundImage="http://localhost:5173/public/cleaning-service.png" 
+                heading="Project 1" 
+                content="This is dummy content you can follow us at Arhamsoft"
+                link="https://example.com"
+              />
             </div>}
             {activeTab === 1 && <div> 
             

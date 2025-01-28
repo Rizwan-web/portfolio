@@ -1,15 +1,17 @@
 import { FC, CSSProperties } from "react";
 
 interface ButtonProps {
+  key?: number;
   label?: string;
   onClick?: () => void;
   style?: CSSProperties; // Allow passing custom inline styles
   className?: string;    // Allow custom class names
 }
 
-const Button: FC<ButtonProps> = ({ label = "Click Me", onClick, style, className }) => {
+const Button: FC<ButtonProps> = ({ label = "Click Me", onClick, style, className, key }) => {
   return (
-    <button 
+    <button
+      key={key}
       style={style}
       className={`border border-emerald-500 button-base rounded-lg text-base font-[1100] py-3 px-6 
         ${ className === 'bgButton' ? 'text-slate-50 hover:bg-emerald-700 hover:border-emerald-700 bg-emerald-500' 
