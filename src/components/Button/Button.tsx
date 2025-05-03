@@ -4,8 +4,8 @@ interface ButtonProps {
   key?: number;
   label?: string;
   onClick?: () => void;
-  style?: CSSProperties; // Allow passing custom inline styles
-  className?: string;    // Allow custom class names
+  style?: CSSProperties; 
+  className?: string;    
 }
 
 const Button: FC<ButtonProps> = ({ label = "Click Me", onClick, style, className, key }) => {

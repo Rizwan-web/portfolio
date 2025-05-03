@@ -41,10 +41,15 @@ export const ABOUT_AGENCY_CONTENT =
 
 // Service Page Content End
 
-
 // Portfolio Page Content Start
 export const PORTFOLIO_OUTLINE = "Portfolio We're Provided";
 export const PORTFOLIO_HEADING = "We do all Creative Portfolio";
 export const PORTFOLIO_CONTENT =
   "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.";
 // Portfolio Page Content End
+
+// Process Page Content
+
+export const PROCESS_HEADING = "Our Process";
+export const PROCESS_CONTENT =
+  "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.";
