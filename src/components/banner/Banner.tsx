@@ -1,15 +1,18 @@
 import BannerImage from "../../assets/images/home1.png";
 import { Link } from "react-router-dom";
-import Button from "../Button/Button";
 import {
   BANNER_TITLE,
   BANNER_SUB_TITLE,
   BANNER_DESC,
 } from "../../site-content/SiteContent";
+import Button from "../button/Button";
 const Banner = () => {
   return (
     <>
-      <section className="bg-home py-40 bg-cover bg-center bg-no-repeat relative" id="home">
+      <section
+        className="bg-home py-40 bg-cover bg-center bg-no-repeat relative"
+        id="home"
+      >
         <div className="bg-cyan-950 bg-overlay opacity-90 absolute left-0 right-0 bottom-0 top-0"></div>
         <div className="container relative mx-auto px-4">
           <div className="items-center grid grid-cols-2">
@@ -62,7 +65,8 @@ const Banner = () => {
       </section>
       <div className="relative">
         <div className="shape absolute right-0 bottom-0 left-0">
-          <svg className="w-full"
+          <svg
+            className="w-full"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             xmlnsXlink="http://www.w3.org/1999/xlink"
